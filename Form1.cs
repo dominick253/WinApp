@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Timers;
 using System.Windows.Forms;
 
 namespace WinApp
@@ -51,12 +52,36 @@ namespace WinApp
         {
             InitializeComponent();
 
+            this.TopMost = true;
+            this.BackColor = System.Drawing.Color.Black;
+            this.TransparencyKey = System.Drawing.Color.Black;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.StartPosition = FormStartPosition.Manual;
+            this.Location = new System.Drawing.Point(0, 0);
+            this.Size = new Size(100, 100);
+
             fpsCounter = new FpsCounter();
             fpsCounter.Start();
 
             fpsLabel = new Label();
-            fpsLabel.Location = new System.Drawing.Point(10, 10);
+            fpsLabel.Location = new System.Drawing.Point(20, 20);
+            fpsLabel.BackColor = Color.Transparent; // make the label background transparent
+            fpsLabel.ForeColor = Color.White;
+
             Controls.Add(fpsLabel);
+
+            timer = new System.Windows.Forms.Timer();
+            timer.Interval = 500;
+            timer.Tick += Timer_Tick;
+            timer.Start();
+        }
+
+        private void Timer_Tick(object sender, System.EventArgs e)
+        {
+            Invalidate();
+            fpsLabel.Text = $"FPS: {Math.Floor(fpsCounter.GetFps())}";
+            fpsCounter = new FpsCounter();
+            fpsCounter.Start();
         }
 
         protected override void OnPaint(PaintEventArgs e)
@@ -64,7 +89,7 @@ namespace WinApp
             base.OnPaint(e);
 
             fpsCounter.Frame();
-            fpsLabel.Text = $"FPS: {fpsCounter.GetFps()}";
+            fpsLabel.Text = $"FPS: {Math.Floor(fpsCounter.GetFps())}";
             fpsCounter.Update();
         }
     }

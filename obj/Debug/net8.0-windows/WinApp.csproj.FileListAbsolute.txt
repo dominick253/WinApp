@@ -12,3 +12,4 @@ c:\Users\domin\WinApp\obj\Debug\net8.0-windows\refint\WinApp.dll
 c:\Users\domin\WinApp\obj\Debug\net8.0-windows\WinApp.pdb
 c:\Users\domin\WinApp\obj\Debug\net8.0-windows\WinApp.genruntimeconfig.cache
 c:\Users\domin\WinApp\obj\Debug\net8.0-windows\ref\WinApp.dll
+C:\Users\domin\WinApp\obj\Debug\net8.0-windows\WinApp.sourcelink.json

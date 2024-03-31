@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c8ff3189d9745a3786fd19ac22c89d66176d26c")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
