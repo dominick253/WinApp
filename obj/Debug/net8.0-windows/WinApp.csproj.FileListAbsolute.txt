@@ -1,0 +1,14 @@
+c:\Users\domin\WinApp\bin\Debug\net8.0-windows\WinApp.exe
+c:\Users\domin\WinApp\bin\Debug\net8.0-windows\WinApp.deps.json
+c:\Users\domin\WinApp\bin\Debug\net8.0-windows\WinApp.runtimeconfig.json
+c:\Users\domin\WinApp\bin\Debug\net8.0-windows\WinApp.dll
+c:\Users\domin\WinApp\bin\Debug\net8.0-windows\WinApp.pdb
+c:\Users\domin\WinApp\obj\Debug\net8.0-windows\WinApp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\domin\WinApp\obj\Debug\net8.0-windows\WinApp.AssemblyInfoInputs.cache
+c:\Users\domin\WinApp\obj\Debug\net8.0-windows\WinApp.AssemblyInfo.cs
+c:\Users\domin\WinApp\obj\Debug\net8.0-windows\WinApp.csproj.CoreCompileInputs.cache
+c:\Users\domin\WinApp\obj\Debug\net8.0-windows\WinApp.dll
+c:\Users\domin\WinApp\obj\Debug\net8.0-windows\refint\WinApp.dll
+c:\Users\domin\WinApp\obj\Debug\net8.0-windows\WinApp.pdb
+c:\Users\domin\WinApp\obj\Debug\net8.0-windows\WinApp.genruntimeconfig.cache
+c:\Users\domin\WinApp\obj\Debug\net8.0-windows\ref\WinApp.dll
